@@ -1,0 +1,7 @@
+stages: 
+- test
+
+Test:
+- image:busybox
+- script: 
+  - echo "This is hosted in Github!"
